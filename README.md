@@ -1,56 +1,50 @@
-# ember-radio
+ember-radio
+==============================================================================
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+[Short description of the addon.]
 
-## Prerequisites
+Installation
+------------------------------------------------------------------------------
 
-You will need the following things properly installed on your computer.
+```
+ember install ember-radio
+```
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
 
-## Installation
+Usage
+------------------------------------------------------------------------------
 
-* `git clone <repository-url>` this repository
+[Longer description of how to use the addon in apps.]
+
+
+Contributing
+------------------------------------------------------------------------------
+
+### Installation
+
+* `git clone <repository-url>`
 * `cd ember-radio`
 * `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
 
 ### Linting
 
 * `npm run lint:js`
 * `npm run lint:js -- --fix`
 
-### Building
+### Running tests
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+* `ember test` – Runs the test suite on the current Ember version
+* `ember test --server` – Runs the test suite in "watch mode"
+* `ember try:each` – Runs the test suite against multiple Ember versions
 
-### Deploying
+### Running the dummy application
 
-Specify what it takes to deploy your app.
+* `ember serve`
+* Visit the dummy application at [http://localhost:4200](http://localhost:4200).
 
-## Further Reading / Useful Links
+For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+License
+------------------------------------------------------------------------------
+
+This project is licensed under the [MIT License](LICENSE.md).
